@@ -1,0 +1,36 @@
+id,location,price,tax,bedroom,hall,kitchen,sqft,interior,house_type
+5,Pune,500,432,1,1,1,40000,new,home
+6,Mumbai,431,329,2,1,3,50000,old,row
+
+
+http://1337x.st/
+
+
+SQL = RDBMS --> relational database managemant system use to store data in rows and columns into table 
+COMNMAND TYPES 
+DDL = create alter,drop,truncate,comment
+DML = insert,update,delete
+DCL = grant,revoke
+DQL= select
+TCL =commit,rollback,savepoint
+
+select = use to fetch data from table 
+insert = to put values into rows in table 
+update = modify values of column 
+delete = remove one or more rows from table 
+grant = to give user access previlege to database 
+revoke = to take out permission from user 
+commit = save all transaction to database
+rollback = undo tranasaction from datbase 
+savepoint = rollback transaction to certain point 
+drop = delete whole table 
+truncate = remove rows from table 
+create = use to create table into datbase 
+
+syntax 
+select * from table name 
+select tablename.colname from table name 
+select colname from table name 
+insert into tablename(col1,2,3)values(1,2,3)
+
+
